@@ -1,0 +1,64 @@
+PODS:
+  - BSON (6.0.6):
+    - SwiftNIO (~> 1.9)
+  - CNIOAtomics (1.13.0)
+  - CNIODarwin (1.13.0)
+  - CNIOLinux (1.13.0)
+  - CNIOSHA1 (1.13.0)
+  - mongo_embedded (4.0.4)
+  - MongoKitten (5.1.11):
+    - BSON (~> 6.0.2)
+    - MongoKitten/Core (= 5.1.11)
+    - MongoKitten/GridFS (= 5.1.11)
+    - MongoKitten/Mobile (= 5.1.11)
+  - MongoKitten/_MongoKittenCrypto (5.1.11):
+    - BSON (~> 6.0.2)
+  - MongoKitten/Core (5.1.11):
+    - BSON (~> 6.0.2)
+    - MongoKitten/_MongoKittenCrypto
+    - SwiftNIOTLS (~> 1.4)
+  - MongoKitten/GridFS (5.1.11):
+    - BSON (~> 6.0.2)
+    - MongoKitten/Core
+  - MongoKitten/Mobile (5.1.11):
+    - BSON (~> 6.0.2)
+    - mongo_embedded (~> 4.0)
+    - MongoKitten/Core
+  - SwiftNIO (1.13.0):
+    - CNIOAtomics (= 1.13.0)
+    - CNIODarwin (= 1.13.0)
+    - CNIOLinux (= 1.13.0)
+    - CNIOSHA1 (= 1.13.0)
+    - SwiftNIOConcurrencyHelpers (= 1.13.0)
+  - SwiftNIOConcurrencyHelpers (1.13.0):
+    - CNIOAtomics (= 1.13.0)
+
+DEPENDENCIES:
+  - MongoKitten
+
+SPEC REPOS:
+  trunk:
+    - BSON
+    - CNIOAtomics
+    - CNIODarwin
+    - CNIOLinux
+    - CNIOSHA1
+    - mongo_embedded
+    - MongoKitten
+    - SwiftNIO
+    - SwiftNIOConcurrencyHelpers
+
+SPEC CHECKSUMS:
+  BSON: 909d72ae0d51316dc1be3c8c118e191f54a036ec
+  CNIOAtomics: ebb029bc0545a8a985d379be8d99917ee5968c44
+  CNIODarwin: fe828e0fe7970f932ed7e1ffc5e76a9b24e1a8ea
+  CNIOLinux: 382fad86b59fa7470498621861cc9f670bfaf150
+  CNIOSHA1: 4c615a274717bdb27ba616405ff70c0e5d6f5e91
+  mongo_embedded: e413134eb6b60544e7278add03007f8fe384a00c
+  MongoKitten: 45564a5fdee0e0773eef809cc94d3ca073bebe71
+  SwiftNIO: df48d7b349f05a294019a11c49783411f29f9836
+  SwiftNIOConcurrencyHelpers: 7411dd902d37cb82ec5a86e6348ae539f1156840
+
+PODFILE CHECKSUM: fda63254456513bc59f3e77dda0bfcbddd30eb72
+
+COCOAPODS: 1.8.4
